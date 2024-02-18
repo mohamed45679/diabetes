@@ -21,7 +21,7 @@ zz=pd.DataFrame({'Pregnancies':[f],'Glucose':[m], 'BloodPressure':[k]
               , 'SkinThickness':[d], 'Insulin':[d],
        'BMI':[s], 'DiabetesPedigreeFunction':[a], 'Age':[c]})
 
-data=pd.read_csv(r'diabetes.csv')
+data=pd.read_csv(r'diabete.csv')
 
 x=data.drop(['Outcome'],axis=1)
 y=data.Outcome
