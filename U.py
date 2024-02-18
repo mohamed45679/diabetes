@@ -10,13 +10,13 @@ st.image("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTEhM
 st.sidebar.header("diabetes diseas:")
 
 f=st.text_input('Pregnancies')
+i=st.text_input('Glucose')
 m=st.text_input('BloodPressure')
 k=st.text_input('SkinThickness')
 d=st.text_input('Insulin')
 s=st.text_input('BMI')
 a=st.text_input('DiabetesPedigreeFunction')
 c=st.text_input('Age')
-
 zz=pd.DataFrame({'Pregnancies':[f],'Glucose':[m], 'BloodPressure':[k]
               , 'SkinThickness':[d], 'Insulin':[d],
        'BMI':[s], 'DiabetesPedigreeFunction':[a], 'Age':[c]})
